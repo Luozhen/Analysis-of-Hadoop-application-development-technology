@@ -20,12 +20,12 @@ import org.apache.hadoop.io.IOUtils;
 import org.apache.log4j.Logger;   
 @SuppressWarnings("deprecation")  
 public class HDFSDataInputExample {   
-    static final Logger logger = Logger.getLogger(HDFSSample.class);  
+    static final Logger logger = Logger.getLogger(HDFSDataInputExample.class);  
     static {  
         URL.setURLStreamHandlerFactory(new FsUrlStreamHandlerFactory());  
     }   
     public static void main(String[] args) throws Exception {  
-        HDFSSample sample = new HDFSSample();  
+        HDFSDataInputExample sample = new HDFSDataInputExample();  
         String cmd = args[0];  
         String localPath = args[1];  
         String hdfsPath = args[2];  
@@ -37,7 +37,7 @@ public class HDFSDataInputExample {
         }  
     }    
     /** 
-     * 创建文件 
+     * 麓麓陆篓脦脛录镁 
      * @param localPath 
      * @param hdfsPath 
      * @throws IOException 
@@ -59,7 +59,7 @@ public class HDFSDataInputExample {
         }  
     }  
     /** 
-     * 从HDFS获取文件   
+     * 麓脫HDFS禄帽脠隆脦脛录镁   
      * @param localPath 
      * @param hdfsPath 
      * @throws IOException 
