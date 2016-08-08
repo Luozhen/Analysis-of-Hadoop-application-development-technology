@@ -5,3 +5,7 @@
 
 ## ch08
 - [MapReduce：随机生成100个小数并求最大值](http://blog.csdn.net/u011239443/article/details/52097569)
+
+## ch09
+- [Hadoop MapReduce 二次排序](http://blog.csdn.net/u011239443/article/details/52129609)
+- [MapReduce Join](http://blog.csdn.net/u011239443/article/details/52151251)
